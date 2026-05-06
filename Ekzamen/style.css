@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+.box {
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    height: 250px;
+}
+
+.left {
+    width: 180px;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.right {
+    flex: 1;
+    padding: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+a {
+    font-size: 12px;
+}
+
+ 
+.fade {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}
