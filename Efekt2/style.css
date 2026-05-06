@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+.box {
+    display: flex;
+    border: 1px solid black;
+    width: 650px;
+    height: 300px;
+}
+
+.left {
+    width: 200px;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.right {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.task {
+    margin-bottom: 10px;
+}
+
+/* ефект */
+.fade {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.3s;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}

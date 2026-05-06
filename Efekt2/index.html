@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista zadań</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h3>Lista zadań</h3>
+
+<div class="box">
+
+    <div class="left">
+        <label>Nazwa</label>
+        <input type="text" id="title">
+
+        <label>Opis</label>
+        <textarea id="desc" maxlength="128"></textarea>
+        <label>Data</label>
+        <input type="date" id="date">
+
+        <button id="save">Zapisz</button>
+
+        <a href="https://github.com/Volodymyr09-shybk/Ekzamen" target="_blank">
+            link do repozytorium
+        </a>
+    </div>
+
+    <div class="right">
+        <div id="output"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
